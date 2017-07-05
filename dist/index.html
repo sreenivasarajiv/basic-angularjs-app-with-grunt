@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="myApp" >
+<head>
+    <title>Angular App</title>
+    <meta charset="UTF-8" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    
+    <script src="index.min.js"></script>
+    <link rel="stylesheet" href="src/styles/index.css" />
+
+</head>
+
+<body ng-controller="MainController">
+    <div class="header">
+        <ul>
+            <li><a ui-sref="home" ui-sref-active="active">Home</a></li>
+            <li><a ui-sref="about" ui-sref-active="active">About</a></li>
+            <li><a ui-sref="contact" ui-sref-active="active">Contact</a></li>
+        </ul>
+    </div>
+    <div class="container">
+
+        <h1 class="big-font">{{myScope}}</h1>
+
+        <!-- controlled by MainController -->
+
+        <ui-view class="sass-class">
+            <!-- partial views will come here -->
+            <!-- controlled by Specific Controllers -->
+        </ui-view>
+
+    </div>
+
+</html>
