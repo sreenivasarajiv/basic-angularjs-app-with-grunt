@@ -1,6 +1,7 @@
 # basic-angularjs-app-with-grunt
 Basic AngularJS (1+) app with Grunt to build and maintain the Project
 <br/>
+<br/>
 <em>Install <strong>Node.JS</strong> and <strong>Git</strong>. clone the Repo</em>
 <br/>
 <ul>
@@ -8,7 +9,7 @@ Basic AngularJS (1+) app with Grunt to build and maintain the Project
     <li><strong>build : </strong>grunt</li>
 </ul>
 <br/>
-<em>put the contents of <strong>'/dist'</strong> folder (after build) in root folder of the server.<em>
+<em>put the contents of <strong>'/dist'</strong> folder (after build) in root folder of the server.</em>
 
 <br/>
 
